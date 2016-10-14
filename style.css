@@ -763,7 +763,7 @@ ol li:before {
 	content: counter(item);
 	counter-increment: item;
 	font-weight: 800;
-	left: -1.5em;
+	left: -1em;
 	position: absolute;
 }
 
