@@ -3314,13 +3314,13 @@ article.panel-placeholder {
 	/* Layout */
 
 	.wrap {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 3em;
+		padding-right: 3em;
 	}
 
 	/* Navigation */
 	.navigation-top .wrap {
-		padding: 0.75em 0;
+		padding: 0.75em 3.4285714286em;
 		max-width: calc( 1000px + 2.5em);
 	}
 
@@ -3347,6 +3347,19 @@ article.panel-placeholder {
 }
 
 @media screen and ( min-width: 79em ) {
+	
+	/* Layout */
+
+	.wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	/* Navigation */
+	.navigation-top .wrap {
+		padding: 0.75em 0;
+	}
+	
 	.has-sidebar .entry-content blockquote.alignleft {
 		margin-left: -20%;
 	}
